@@ -326,10 +326,18 @@
         <div class="container">
             <h2 class="section-title">AI Playground</h2>
             <p class="section-subtitle">Interactive experiments and data visualizations.</p>
-            <div class="sandbox-area">
-                <div class="sandbox-placeholder">
-                    <div class="loader-ring"></div>
-                    <p>Initializing Environment...</p>
+            <div class="sandbox-area" id="ai-playground">
+                <canvas id="neural-canvas"></canvas>
+                <div class="sandbox-ui">
+                    <div class="sys-status">
+                        <span class="status-dot"></span> System: LIVE
+                        <span class="metrics"> | Latency: 12ms | VRAM: 14GB</span>
+                    </div>
+                    <div class="terminal-logs" id="terminal-logs">
+                        <div class="log-line">> Initializing Neural Cortex v4.2...</div>
+                    </div>
+                    <button id="regen-btn" class="btn btn-outline-sm"><i class="fas fa-sync-alt"></i> Reset
+                        Network</button>
                 </div>
             </div>
         </div>
