@@ -1,4 +1,4 @@
-# Senior AI Engineer Portfolio
+# AI Engineer | Data Scientist Portfolio
 
 A high-end, production-grade portfolio website designed for a Senior Data Scientist & AI Engineer.
 Built with HTML5, CSS3, and Vanilla JavaScript.
